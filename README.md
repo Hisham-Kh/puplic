@@ -1,1 +1,1 @@
-# puplic
+# simple web app
