@@ -97,4 +97,4 @@ if not st.sidebar.checkbox("Hide word cloud", True , key = '7'):
     plt.xticks([])
     plt.yticks([])
     st.pyplot()
-    st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_option('deprecation.showPyplotGlobalUse', False)
