@@ -39,7 +39,8 @@ with col2:
 st.sidebar.markdown("<h1 style='text-align: center; color: white; background-color: lightblue ;'> Sentiments Analaysis of Tweets about US Airlines </h1>", unsafe_allow_html=True)
 st.sidebar.markdown("<h1 style='text-align: center; color: blue;  font-size: 15px '> made by Hisham.K</h1>", unsafe_allow_html=True)
 
-data_url =("https://github.com/Hisham-Kh/projects/blob/main/Tweets.csv")
+data_url =("https://github.com/Hisham-Kh/puplic/raw/puplic/Tweets.csv")
+@st.cache(persist=True)
 
 
 def load_data():
