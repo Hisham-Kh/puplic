@@ -1,1 +1,2 @@
-# simple web app
+# Simple web app
+# This data originally came from Crowdflower's Data for Everyone library. Twitter data was scraped from February of 2015 and contributors were asked to first classify positive, negative, and neutral tweets, followed by categorizing negative reasons (such as late flight or rude service) The data we are providing on Kaggle is a slightly reformatted version of the original source It includes both a CSV file and SQLite database
